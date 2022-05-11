@@ -1,9 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 section {
-    height: 500px;
+    /*height: 500px;*/
     background-color: white;
     border: solid black 1px;
 }
@@ -55,17 +56,13 @@ p {
     align-items: center;
 }
 
-.header-title {
-    margin-left: 80px;
+.header-text {
+    margin-left: 255px;
     margin-bottom: 200px;
 }
 
-.header-name {
-    margin-left: 180px;
-}
-
 .header-desc {
-    margin-left: 440px;
+    margin-left: 265px;
 }
 
 .button {
@@ -78,7 +75,9 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
-    margin-left: 540px;
+    margin-left: 365px;
+    cursor: pointer;
+    user-select: none;
 }
 
 .button:hover {
@@ -96,4 +95,15 @@ p {
 
 .icons {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
 }

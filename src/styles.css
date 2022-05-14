@@ -4,7 +4,6 @@ body {
 }
 
 section {
-    /*height: 500px;*/
     background-color: white;
     border: solid black 1px;
 }
@@ -57,12 +56,8 @@ p {
 }
 
 .header-text {
-    margin-left: 255px;
     margin-bottom: 200px;
-}
-
-.header-desc {
-    margin-left: 265px;
+    margin-left: 80px;
 }
 
 .button {
@@ -75,7 +70,6 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
-    margin-left: 365px;
     cursor: pointer;
     user-select: none;
 }

@@ -15,8 +15,10 @@ section {
 }
 
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -48,6 +50,14 @@ h2 {
 
 h3 {
     font-size: 50px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+h5 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: -20px;
 }
 
 p {
@@ -102,7 +112,7 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    padding: 60px;
 }
 
 .project-card {
@@ -122,6 +132,7 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    margin-top: -120px;
 }
 
 .project-text {
@@ -143,4 +154,16 @@ hr {
 .project-link {
     text-decoration: none;
     color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

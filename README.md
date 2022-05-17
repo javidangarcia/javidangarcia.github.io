@@ -1,3 +1,3 @@
 # portfolio & resume website
 
-This is my portfolio website hosted on GitHub Pages. This site includes my resume, projects, education history, skills, and contact information.
+This is my portfolio website. This site contains and displays my resume, projects, education history, skills, profile links, and contact information.

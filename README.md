@@ -1,3 +1,3 @@
-# portfolio & resume website
+# portfolio website
 
-This is my portfolio website. This site contains and displays my resume, projects, education history, skills, profile links, and contact information.
+This site contains my projects, skills, resume, education history, profile links, and contact information.

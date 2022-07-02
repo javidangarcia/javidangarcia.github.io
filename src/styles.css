@@ -148,6 +148,7 @@ p {
 
 .project-image {
     width: 250px;
+    height: 250px;
     border-radius: 125px;
     margin-top: 25px;
 }

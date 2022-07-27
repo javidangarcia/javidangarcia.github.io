@@ -130,6 +130,7 @@ p {
 
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -160,7 +161,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: blue;
 }
 
 a {
